@@ -4,7 +4,7 @@ import Launcher
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        Launcher.debug = true
+        Launcher.shared.debug = true
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

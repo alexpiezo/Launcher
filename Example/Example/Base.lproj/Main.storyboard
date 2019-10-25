@@ -716,7 +716,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <binding destination="XfG-lQ-9wD" name="value" keyPath="launchAtLogin" id="mX8-lt-O0Q"/>
+                                    <binding destination="XfG-lQ-9wD" name="value" keyPath="launcher.isEnabled" id="jUU-56-U3Z"/>
                                 </connections>
                             </button>
                         </subviews>

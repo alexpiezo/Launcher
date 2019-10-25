@@ -2,15 +2,7 @@ import Cocoa
 import Launcher
 
 class ViewController: NSViewController {
-    @objc dynamic var launchAtLogin: Bool = true {
-        didSet {
-            if launchAtLogin {
-                _ = Launcher.enableLaunchAtLogin()
-            } else {
-                _ = Launcher.disableLaunchAtLogin()
-            }
-        }
-    }
+    @objc dynamic var launcher = Launcher.shared
 
     override func viewDidLoad() {
         super.viewDidLoad()
