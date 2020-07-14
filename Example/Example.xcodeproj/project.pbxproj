@@ -17,6 +17,7 @@
 		FA55AECB2362780A00CE77D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA55AEC92362780A00CE77D7 /* Main.storyboard */; };
 		FA55AED22362781500CE77D7 /* Launcher in Frameworks */ = {isa = PBXBuildFile; productRef = FA55AED12362781500CE77D7 /* Launcher */; };
 		FA55AED423627B0000CE77D7 /* Example-Launcher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA55AEC12362780900CE77D7 /* Example-Launcher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA5B331E24BDF07D00BAA4CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B331D24BDF07D00BAA4CC /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		FA55AECA2362780A00CE77D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA55AECC2362780A00CE77D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA55AECD2362780A00CE77D7 /* Example_Launcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Example_Launcher.entitlements; sourceTree = "<group>"; };
+		FA5B331D24BDF07D00BAA4CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				FA55AEA9236277CD00CE77D7 /* AppDelegate.swift */,
 				FA55AEAB236277CD00CE77D7 /* ViewController.swift */,
+				FA5B331D24BDF07D00BAA4CC /* ContentView.swift */,
 				FA55AEAD236277CE00CE77D7 /* Assets.xcassets */,
 				FA55AEAF236277CE00CE77D7 /* Main.storyboard */,
 				FA55AEB2236277CE00CE77D7 /* Info.plist */,
@@ -230,6 +233,7 @@
 			files = (
 				FA55AEAC236277CD00CE77D7 /* ViewController.swift in Sources */,
 				FA55AEAA236277CD00CE77D7 /* AppDelegate.swift in Sources */,
+				FA5B331E24BDF07D00BAA4CC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
