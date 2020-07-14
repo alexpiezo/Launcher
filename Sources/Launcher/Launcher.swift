@@ -18,6 +18,11 @@ public class Launcher: NSObject {
         }
         set {
             willChangeValue(forKey: "isEnabled")
+            
+            if #available(OSX 10.15, *){
+                objectWillChange.send()
+            }
+            
             let result = SMLoginItemSetEnabled(launcherBundleId as CFString, newValue)
             if debug {
                 notify("\(newValue ? "Enable" : "Disable") success :\(result)", text: "\(Bundle.main.bundleIdentifier!)-Launcher")
@@ -55,3 +60,6 @@ public class Launcher: NSObject {
         NSUserNotificationCenter.default.deliver(notification)
     }
 }
+
+@available(OSX 10.15, *)
+extension Launcher:ObservableObject{}
